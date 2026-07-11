@@ -12,7 +12,7 @@ return [
     | Your Browserless API key. You can get one from https://www.browserless.io/
     |
     */
-    'api_key' => env('BROWSERLESS_API_KEY'),
+    'token' => env('BROWSERLESS_API_KEY'),
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | The URL of the Browserless API. Defaults to the official API URL.
     |
     */
-    'api_url' => env('BROWSERLESS_API_URL', 'https://chrome.browserless.io'),
+    'url' => env('BROWSERLESS_API_URL', 'https://chrome.browserless.io'),
 
     /*
     |--------------------------------------------------------------------------
